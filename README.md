@@ -1,1 +1,23 @@
 # Sistema-para-Salao-de-Beleza
+
+Dentro da pasta, você encontrará dois arquivos 
+essenciais para o povoamento do banco de dados (BD):
+
+"Povoamento do BD - PARTE 1.sql"
+"Povoamento do BD - PARTE 2.sql"
+
+É crucial que ambos os arquivos sejam executados 
+sequencialmente para garantir a correta configuração 
+do banco de dados. O arquivo "Povoamento do BD - PARTE 1.sql" 
+contém os comandos de inserção inicial, essenciais para a 
+estruturação básica do BD. Por outro lado, o arquivo 
+"Povoamento do BD - PARTE 2.sql" abrange aspectos mais avançados
+ do povoamento, utilizando Functions e Procedures.
+
+Gostaríamos de esclarecer que a separação dos scripts
+em dois arquivos foi necessária devido a uma limitação
+do PGAdmin/PostgreSQL. Quando combinados em um único arquivo,
+o sistema não reconhece as tabelas criadas nas etapas anteriores, 
+o que é essencial para a execução correta das Procedures e Functions.
+
+Agradecemos sua atenção e colaboração neste processo.
